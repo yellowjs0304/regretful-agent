@@ -9,7 +9,7 @@ from trainer import PanoSeq2SeqTrainer
 from agents import PanoSeq2SeqAgent
 from models import EncoderRNN, SelfMonitoring, SpeakerFollowerBaseline, Regretful
 
-
+#깃헙을 사용해보쟈!!!
 parser = argparse.ArgumentParser(description='PyTorch for Matterport3D Agent with panoramic view and action')
 # General options
 parser.add_argument('--exp_name', default='experiments_', type=str,
